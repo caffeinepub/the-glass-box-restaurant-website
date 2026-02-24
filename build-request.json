@@ -1,0 +1,119 @@
+{
+  "kind": "build_request",
+  "title": "Add full menu page with categorized sections",
+  "projectName": "The Glass Box",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-9",
+      "text": "Create a new Menu page component that displays the complete restaurant menu organized into categorized sections (e.g., Appetizers, Main Course, Beverages, Desserts). Each menu item should include name, description, price, and image in a card layout consistent with the existing MenuHighlights component styling.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "now add the full menu page with categorized sections"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Menu page component exists with categorized sections",
+        "Each category has a clear heading and displays multiple menu items",
+        "Menu items show name, description, price, and image",
+        "Layout uses the existing gold/charcoal luxury theme",
+        "Page is responsive and maintains design consistency with Gallery and Home pages"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Add routing to navigate to the Menu page and integrate it into the main App component using TanStack Router, following the same pattern as the existing Gallery route.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "now add the full menu page with categorized sections"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Menu route is defined in App.tsx",
+        "Menu page is accessible via /menu path",
+        "Navigation follows existing routing patterns"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Update the Header component to include a navigation link to the Menu page, positioned between Home and Gallery links in the navigation bar.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ],
+        "quotes": [
+          "now add the full menu page with categorized sections"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Menu link appears in both desktop and mobile navigation",
+        "Link shows active state styling when on Menu page",
+        "Navigation order is Home → Menu → Gallery"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Update the Footer component quick links section to include a link to the Menu page.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Menu link is added to Footer quick links section",
+        "Link navigates to the Menu page when clicked"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Render generated menu item images as static assets in frontend/public/assets/generated for the categorized menu items, displaying high-quality food photography for each dish across all menu categories.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-final"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Menu item images are rendered from frontend/public/assets/generated directory",
+        "Images are displayed for all menu items across categories",
+        "Image quality and styling are consistent with existing food images"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use TanStack Router for routing following the existing pattern in App.tsx",
+    "Maintain the luxury design theme with black, charcoal, and gold accents",
+    "Use Playfair Display for headings and Inter for body text",
+    "Follow the existing component structure and styling patterns from MenuHighlights and Gallery components"
+  ],
+  "nonGoals": [
+    "Backend menu data management or CRUD operations",
+    "Menu item filtering or search functionality",
+    "Shopping cart or ordering system",
+    "Dynamic menu pricing or availability updates"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Appetizer platter with spring rolls and samosas on elegant plate (appetizer-platter.dim_800x600.png)",
+      "Grilled chicken tikka skewers with mint chutney (chicken-tikka.dim_800x600.png)",
+      "Creamy dal makhani in copper serving bowl (dal-makhani.dim_800x600.png)",
+      "Biryani rice dish with garnish and raita (biryani.dim_800x600.png)",
+      "Grilled fish fillet with lemon and herbs (grilled-fish.dim_800x600.png)",
+      "Chocolate lava cake with ice cream (chocolate-lava-cake.dim_800x600.png)",
+      "Fresh fruit platter arrangement (fruit-platter.dim_800x600.png)",
+      "Signature mocktail in tall glass with garnish (signature-mocktail.dim_800x600.png)",
+      "Fresh lime soda in glass with ice (lime-soda.dim_800x600.png)"
+    ],
+    "edits": []
+  }
+}

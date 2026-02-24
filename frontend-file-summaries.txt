@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining routes for home (/), menu (/menu), and gallery (/gallery) pages with a shared layout including Header and Footer components.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with glass-roof restaurant background image, headline \"Fine Dining Under the Glass Sky\", rating badge (4.5 stars, 2,895 reviews), and two CTA buttons with smooth scroll to reservation.",
+  "frontend/src/components/MenuHighlights.tsx": "Menu highlights section displaying 8 popular dishes in a responsive grid with hover effects, glassmorphism cards, and an \"All You Can Eat\" badge.",
+  "frontend/src/components/ReservationForm.tsx": "Reservation form component with 7 input fields (name, phone, email, date, time, guests, special requests), backend submission via React Query, success confirmation message, and contact information sidebar.",
+  "frontend/src/components/Footer.tsx": "Footer component with brand information, contact details, quick links (including Menu and Gallery navigation using TanStack Router Link), services list, social media icons, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "React Query hook for submitting reservation data to the backend actor with proper error handling and cache invalidation.",
+  "frontend/src/index.css": "Global styles with Playfair Display serif font for headings, Inter sans-serif for body, OKLCH color system featuring black/charcoal/gold palette, and glassmorphism utility classes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with gold and charcoal colors, custom font families (Playfair Display, Inter), gold-glow shadow, and additional spacing utilities for luxury design.",
+  "frontend/src/components/Header.tsx": "Fixed navigation header component with The Glass Box branding, responsive navigation links for Home, Menu, and Gallery with active state styling, mobile hamburger menu, and glassmorphism effect with gold accents.",
+  "frontend/src/components/Gallery.tsx": "Gallery page component displaying a responsive grid of six curated restaurant images with glassmorphism cards, hover effects with scale animations, and a call-to-action section for reservations.",
+  "frontend/src/components/Menu.tsx": "Full menu page component displaying categorized sections (Appetizers, Main Course, Desserts, Beverages) with menu items in card layout showing images, names, descriptions, and prices using the luxury gold/charcoal theme with hover effects."
+}

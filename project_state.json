@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Website for The Glass Box, a fine-dining restaurant in Kankarbagh, Patna. Building a modern, premium, responsive site starting with homepage featuring hero section, menu highlights, and reservation form.",
+  "architectural_notes": [
+    "Modern luxury design with glass aesthetic theme",
+    "Color palette: Black, charcoal, gold accents, warm lighting tones",
+    "Mobile-first responsive design",
+    "Restaurant details: The Glass Box, 4.5 rating (2,895 reviews), Kankarbagh, Patna"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Appetizer platter with spring rolls and samosas on elegant plate (appetizer-platter.dim_800x600.png)\n- Grilled chicken tikka skewers with mint chutney (chicken-tikka.dim_800x600.png)\n- Creamy dal makhani in copper serving bowl (dal-makhani.dim_800x600.png)\n- Biryani rice dish with garnish and raita (biryani.dim_800x600.png)\n- Grilled fish fillet with lemon and herbs (grilled-fish.dim_800x600.png)\n- Chocolate lava cake with ice cream (chocolate-lava-cake.dim_800x600.png)\n- Fresh fruit platter arrangement (fruit-platter.dim_800x600.png)\n- Signature mocktail in tall glass with garnish (signature-mocktail.dim_800x600.png)\n- Fresh lime soda in glass with ice (lime-soda.dim_800x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-full-width-hero-section-with-headline-fine-dining-under-the-glass-sky-subheading-describing-premium-ambiance-and-two-cta-buttons-reserve-a-table-and-order-online-display-rating-badge-showing-4-5-2-895-reviews",
+      "title": "Create a full-width hero section with headline 'Fine Dining Under the Glass Sky', subheading describing premium ambiance, and two CTA buttons: 'Reserve a Table' and 'Order Online'. Display rating badge showing '⭐ 4.5 | 2,895 Reviews'.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-menu-highlights-section-displaying-8-popular-dishes-paneer-tikka-masala-butter-naan-fish-tikka-non-veg-platter-veg-spring-roll-lasagna-pizza-oreo-kit-kat-shake-popcorn-shake-and-chicken-sandwich-combo-each-item-should-show-an-image-name-and-be-presented-in-an-attractive-card-layout",
+      "title": "Add a menu highlights section displaying 8 popular dishes: Paneer Tikka Masala & Butter Naan, Fish Tikka, Non Veg Platter, Veg Spring Roll, Lasagna Pizza, Oreo Kit Kat Shake, Popcorn Shake, and Chicken Sandwich Combo. Each item should show an image, name, and be presented in an attractive card layout.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-reservation-form-with-fields-for-name-phone-email-date-time-number-of-guests-and-special-requests-include-a-submit-button-and-display-a-confirmation-message-after-submission",
+      "title": "Create a reservation form with fields for Name, Phone, Email, Date, Time, Number of Guests, and Special Requests. Include a submit button and display a confirmation message after submission.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-modern-luxury-design-theme-with-black-charcoal-and-gold-accents-throughout-the-homepage-use-elegant-serif-fonts-for-headings-and-clean-sans-serif-for-body-text-implement-a-minimal-spacious-layout-with-glassmorphism-effects-where-appropriate",
+      "title": "Apply a modern luxury design theme with black, charcoal, and gold accents throughout the homepage. Use elegant serif fonts for headings and clean sans-serif for body text. Implement a minimal, spacious layout with glassmorphism effects where appropriate.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-restaurant-and-food-images-as-static-assets-in-frontend-public-assets-generated-for-the-hero-background-menu-item-cards-and-ambiance-visuals",
+      "title": "Render generated restaurant and food images as static assets in frontend/public/assets/generated for the hero background, menu item cards, and ambiance visuals.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-new-gallery-page-component-that-displays-a-curated-collection-of-high-quality-images-showcasing-the-restaurant-s-glass-roof-ambiance-interior-dining-spaces-and-architectural-details",
+      "title": "Create a new Gallery page component that displays a curated collection of high-quality images showcasing the restaurant's glass roof ambiance, interior dining spaces, and architectural details",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-routing-to-navigate-to-the-gallery-page-and-integrate-it-into-the-main-app-component",
+      "title": "Add routing to navigate to the Gallery page and integrate it into the main App component",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-navigation-header-component-with-links-to-home-and-gallery-pages-maintaining-consistent-branding-with-the-glass-box-logo-and-luxury-styling",
+      "title": "Add a navigation header component with links to Home and Gallery pages, maintaining consistent branding with The Glass Box logo and luxury styling",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-new-menu-page-component-that-displays-the-complete-restaurant-menu-organized-into-categorized-sections-e-g-appetizers-main-course-beverages-desserts-each-menu-item-should-include-name-description-price-and-image-in-a-card-layout-consistent-with-the-existing-menuhighlights-component-styling",
+      "title": "Create a new Menu page component that displays the complete restaurant menu organized into categorized sections (e.g., Appetizers, Main Course, Beverages, Desserts). Each menu item should include name, description, price, and image in a card layout consistent with the existing MenuHighlights component styling.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-routing-to-navigate-to-the-menu-page-and-integrate-it-into-the-main-app-component-using-tanstack-router-following-the-same-pattern-as-the-existing-gallery-route",
+      "title": "Add routing to navigate to the Menu page and integrate it into the main App component using TanStack Router, following the same pattern as the existing Gallery route.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-header-component-to-include-a-navigation-link-to-the-menu-page-positioned-between-home-and-gallery-links-in-the-navigation-bar",
+      "title": "Update the Header component to include a navigation link to the Menu page, positioned between Home and Gallery links in the navigation bar.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-footer-component-quick-links-section-to-include-a-link-to-the-menu-page",
+      "title": "Update the Footer component quick links section to include a link to the Menu page.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-menu-item-images-as-static-assets-in-frontend-public-assets-generated-for-the-categorized-menu-items-displaying-high-quality-food-photography-for-each-dish-across-all-menu-categories",
+      "title": "Render generated menu item images as static assets in frontend/public/assets/generated for the categorized menu items, displaying high-quality food photography for each dish across all menu categories.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Homepage with hero section, menu highlights, and reservation form",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Gallery page showcasing glass roof ambiance",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Full menu page with categorized sections",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "The Glass Box Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

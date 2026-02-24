@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Motoko backend actor defining a Reservation type with 7 fields and a submitReservation function that adds reservations to a List and returns true.",
+  "feature_evidence.json": "Feature evidence report documenting 5 completed features related to Menu page creation, routing, navigation links, and menu item image rendering with high confidence.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of 11 frontend files describing components for routing, hero section, menu highlights, reservation form, footer, gallery, full menu page, header navigation, and styling configurations.",
+  "frontend/index.css": "Tailwind CSS configuration with OKLCH color system defining CSS custom properties for light and dark themes, including background, foreground, accent, and sidebar colors.",
+  "frontend/index.html": "HTML entry point with UTF-8 charset, viewport meta tag, title 'The Glass Box Website', root div, and module script loading main.tsx.",
+  "frontend/src/App.tsx": "Main app component using TanStack Router to define routes for home (/), menu (/menu), and gallery (/gallery) with a shared Layout component containing Header and Footer.",
+  "frontend/src/components/Footer.tsx": "Footer component with 4-column grid layout displaying brand info, contact details with icons, quick links (Menu, Reservations, Gallery), services list, social media links, and Caffeine.ai attribution.",
+  "frontend/src/components/Gallery.tsx": "Gallery page component displaying 6 restaurant images in a responsive grid with hover effects, hero section, and call-to-action for reservations.",
+  "frontend/src/components/Header.tsx": "Fixed header component with The Glass Box branding, desktop and mobile navigation for Home/Menu/Gallery routes with active state styling, and hamburger menu toggle.",
+  "frontend/src/components/Hero.tsx": "Hero section component with full-screen background image, restaurant rating badge, headline text, CTA buttons for reservations and online ordering, and an animated scroll indicator.",
+  "frontend/src/components/Menu.tsx": "Full menu page component displaying categorized menu items (Appetizers, Main Course, Desserts, Beverages) in a grid layout with images, descriptions, and prices for each dish.",
+  "frontend/src/components/MenuHighlights.tsx": "Menu highlights section showcasing 8 popular dishes in a responsive grid with hover effects and an 'All You Can Eat' badge at the bottom.",
+  "frontend/src/components/ReservationForm.tsx": "Reservation form component with input fields for customer details (name, phone, email, date, time, guests, requests), contact information card, and success/loading states using the useSubmitReservation hook.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and manages the backend actor instance based on Internet Identity authentication state, automatically invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login/logout flow, identity state, and AuthClient configuration with delegation handling.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query mutation hook for submitting restaurant reservations to the backend actor, with automatic query invalidation on success.",
+  "frontend/src/index.css": "Global CSS file that imports Google Fonts (Playfair Display and Inter), configures Tailwind CSS layers, and defines CSS custom properties for a luxury dark theme with black, charcoal, and gold color scheme using OKLCH color space. Includes glassmorphism utility classes and typography settings.",
+  "frontend/src/main.tsx": "Application entry point that renders the React app with QueryClient and InternetIdentityProvider wrappers for state management and authentication.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the default theme with custom colors (gold, charcoal), typography (Playfair Display, Inter), animations (accordion), spacing utilities, and integrating plugins for typography, container queries, and animations.",
+  "project_state.json": "Project metadata tracking the development of The Glass Box restaurant website, documenting architectural decisions, existing features (hero section, menu highlights, reservation form), required food/drink images, and the luxury glass aesthetic design theme."
+}

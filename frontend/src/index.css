@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.5rem;
+        
+        /* Black & Charcoal Base */
+        --background: 0 0 0;
+        --foreground: 0.98 0 0;
+        
+        /* Gold Accent */
+        --gold: 0.65 0.15 85;
+        
+        /* Charcoal */
+        --charcoal: 0.15 0 0;
+        
+        /* Card & UI Elements */
+        --card: 0.1 0 0;
+        --card-foreground: 0.98 0 0;
+        --popover: 0.1 0 0;
+        --popover-foreground: 0.98 0 0;
+        
+        /* Primary (Gold) */
+        --primary: 0.65 0.15 85;
+        --primary-foreground: 0.1 0 0;
+        
+        /* Secondary (Charcoal) */
+        --secondary: 0.2 0 0;
+        --secondary-foreground: 0.98 0 0;
+        
+        /* Muted */
+        --muted: 0.25 0 0;
+        --muted-foreground: 0.65 0 0;
+        
+        /* Accent */
+        --accent: 0.3 0 0;
+        --accent-foreground: 0.98 0 0;
+        
+        /* Destructive */
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.985 0 0;
+        
+        /* Borders & Inputs */
+        --border: 0.3 0 0;
+        --input: 0.25 0 0;
+        --ring: 0.65 0.15 85;
+        
+        /* Charts */
+        --chart-1: 0.65 0.15 85;
+        --chart-2: 0.6 0.12 45;
+        --chart-3: 0.55 0.1 120;
+        --chart-4: 0.5 0.08 200;
+        --chart-5: 0.45 0.06 280;
+    }
+
+    .dark {
+        --background: 0.05 0 0;
+        --foreground: 0.98 0 0;
+        --card: 0.1 0 0;
+        --card-foreground: 0.98 0 0;
+        --popover: 0.1 0 0;
+        --popover-foreground: 0.98 0 0;
+        --primary: 0.65 0.15 85;
+        --primary-foreground: 0.1 0 0;
+        --secondary: 0.2 0 0;
+        --secondary-foreground: 0.98 0 0;
+        --muted: 0.25 0 0;
+        --muted-foreground: 0.65 0 0;
+        --accent: 0.3 0 0;
+        --accent-foreground: 0.98 0 0;
+        --destructive: 0.704 0.191 22.216;
+        --destructive-foreground: 0.98 0 0;
+        --border: 0.3 0 0;
+        --input: 0.25 0 0;
+        --ring: 0.65 0.15 85;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground font-sans;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Playfair Display', Georgia, serif;
+    }
+}
+
+@layer utilities {
+    /* Gold color utility */
+    .text-gold {
+        color: oklch(var(--gold));
+    }
+    
+    .bg-gold {
+        background-color: oklch(var(--gold));
+    }
+    
+    .border-gold {
+        border-color: oklch(var(--gold));
+    }
+    
+    /* Charcoal color utility */
+    .bg-charcoal {
+        background-color: oklch(var(--charcoal));
+    }
+    
+    /* Glassmorphism utilities */
+    .glass {
+        background: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+    
+    .glass-light {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+}
